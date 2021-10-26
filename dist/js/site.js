@@ -161,7 +161,7 @@ function next() {
 
    
   // if the question is last then redirect to final page
-  if (question_count == 10) {
+  if (question_count == 9) {
     sessionStorage.setItem("time", time);
     clearInterval(mytime);
     location.href = "end.html";
