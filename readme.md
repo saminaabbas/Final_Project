@@ -1,6 +1,15 @@
-# Final_Project
-This is an online assessment platform made by Rizwan Azher Saudager and Samina Abbas as the final project of Walkover University training program. The technologies that have been used to create the web application are HTML, CSS, JavaScript and Bootstrap.
 
+
+# Final_Project:
+This is an online assessment platform made by Rizwan Azher Saudager and Samina Abbas as the final project of Walkover University training program. The technologies that have been used to create the web application are HTML, CSS, JavaScript and Bootstrap and for deployment we uses aws cloud and jenkins as a CI/CD tool.
+Following is the public IP address of our deployed project- 13.211.207.189 and the link for the same is- http://13.211.207.189
+We have also hosted our application on GitHub and following is the link for the same- https://rizwanazher.github.io/online_assessment/
+# Developers:
+  1. Samina Abbas.<br> 
+     #GitHub profile - https://github.com/saminaabbas
+
+  2. Rizwan azher saudager.<br>
+     #GitHub profile - https://github.com/Rizwanazher
 
 # Specifications:
 1. The assessment is MCQ based.
@@ -20,24 +29,29 @@ This is an online assessment platform made by Rizwan Azher Saudager and Samina A
 3. Javascript
 4. Bootstrap
 
-# CI/CD setup:
-1.vCreate a GitHub repository. You may initialize it with a README, license, .gitignore
+# Deployment:
+ ---The deployment of the website has been done using AWS EC2 instance---
+ 1. We created the instance using EC2 in Red Hat .
+ 2. Then we installed the httpd server on the Red Hat instance which is operated through Putty.
+ 3. Then, we attached our Github repository to the httpd directory using Jenkins.
+ 4. Finally we hosted our website on the httpd server. 
 
-2.vInstall git via terminal
+# CI/CD setup:-
+--We have used Jenkins as our CI/CD tool--
+1. We created a GitHub repository of our project.
 
-(On Ubuntu you can do sudo apt-get install git)
+2. We installed Git via terminal.
 
-3. Then do a git clone of your repository, or simply download the zip file of your repository from GitHub and extract it.
+3. Then we cloned that repository into our local computer and then added our project files to it . 
 
-4. Copy your java project in the new folder created after cloning (its name will be same to that of the repository you cloned).
+4. We commited all the changes and pushed them into our Github repository.
 
-5. Add all the changes you want.
+6. Then we installed Jenkins and Git on our Red Hat instance.
 
-6. Then execute these commands:
 
-git add . 
+7. We setup the Github plugin on Jenkins and connected our repository which created an image of our Github file. 
+   We also configured the build now button so as to fetch the data on our Github repository after every 3 minutes.
+ 
+8. Finally, we configured the settings on Jenkins so as to send the data, fetched from our repository, to the httpd server to host our website. 
 
-git commit -m "[mandatory commit message]" 
 
-git push [url to your repository] master/main 
-Now your commit will be successfully pushed to the main branch of your GitHub repository.
