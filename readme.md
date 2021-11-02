@@ -12,7 +12,7 @@ We have also hosted our application on GitHub and following is the link for the 
      #GitHub profile - https://github.com/Rizwanazher
      
 # Admin Page:
-The link to the admin page is- https://saminaabbas.github.io/Admin_page/
+The link to the admin page is- https://saminaabbas.github.io/Admin_page/ <br>
 Link to the Github repository of the admin page- https://github.com/saminaabbas/Admin_page
 
 # Specifications:
