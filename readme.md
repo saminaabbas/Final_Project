@@ -3,13 +3,17 @@
 # Final_Project:
 This is an online assessment platform made by Rizwan Azher Saudager and Samina Abbas as the final project of Walkover University training program. The technologies that have been used to create the web application are HTML, CSS, JavaScript and Bootstrap and for deployment we uses aws cloud and jenkins as a CI/CD tool.
 Following is the public IP address of our deployed project- 13.211.207.189 and the link for the same is- http://13.211.207.189
-We have also hosted our application on GitHub and following is the link for the same- https://rizwanazher.github.io/online_assessment/
+We have also hosted our application on GitHub and following is the link for the same- https://saminaabbas.github.io/Final_Project/
 # Developers:
   1. Samina Abbas.<br> 
      #GitHub profile - https://github.com/saminaabbas
 
   2. Rizwan azher saudager.<br>
      #GitHub profile - https://github.com/Rizwanazher
+     
+# Admin Page:
+The link to the admin page is- https://saminaabbas.github.io/Admin_page/
+Link to the Github repository of the admin page- https://github.com/saminaabbas/Admin_page
 
 # Specifications:
 1. The assessment is MCQ based.
